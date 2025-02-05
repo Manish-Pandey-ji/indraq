@@ -3,7 +3,7 @@ name: Sync to S3 on Commit
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the main branch
+      - master
 
 jobs:
   sync-to-s3:
